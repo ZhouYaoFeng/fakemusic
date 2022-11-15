@@ -1,0 +1,17 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/login/login",
+        "pages/musicIndex/musicIndex"
+    ],
+    "entryPagePath": "pages/index/index",
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#d43c33",
+        "navigationBarTitleText": "TEA",
+        "navigationBarTextStyle": "white"
+    },
+    "style": "v2",
+    "sitemapLocation": "sitemap.json"
+}

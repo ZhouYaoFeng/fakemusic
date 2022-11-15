@@ -1,0 +1,9 @@
+<!--pages/login/login.wxml-->
+<view class="baseContainer">
+    <image class="avatarImage" src="/static/image/login_touxiang.jpg"></image>
+    <text class="inputLabel">用户名</text>
+    <input class="inputArea">请输入用户名</input>
+    <text class="inputLabel">密码</text>
+    <input class="inputArea" password="true">请输入密码</input>
+    <button open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">{{buttonText}}</button>
+</view>

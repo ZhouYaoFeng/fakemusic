@@ -1,0 +1,81 @@
+<!--pages/musicIndex/musicIndex.wxml-->
+<view class="baseContainer">
+    <!-- 首页轮播图区域 -->
+    <swiper class="banners" indicator-dots="true" indicator-color='invory' indicator-active-color="#d43c33" >
+        <swiper-item class="banners_item" wx:for="{{bannerList}}" >
+            <image src="{{item.pic}}"></image>
+        </swiper-item>
+
+    </swiper>
+
+    <!-- 五个导航图标区域 -->
+    <view class="nacContainer">
+        <view class="navItem">
+            <text class="iconfont icon-tuijian"></text>
+            <text>每日推荐</text>
+        </view>
+        <view class="navItem">
+            <text class="iconfont icon-gedan"></text>
+            <text>歌单</text>
+        </view>
+        <view class="navItem">
+            <text class="iconfont icon-yinle"></text>
+            <text>排行榜</text>
+        </view>
+        <view class="navItem">
+            <text class="iconfont icon-diantai"></text>
+            <text>电台</text>
+        </view>
+        <view class="navItem">
+            <text class="iconfont icon-zhibo"></text>
+            <text>直播</text>
+        </view>
+    </view>
+
+    <!-- 推荐歌曲区域 -->
+    <view class="recommendContainer">
+        <view class="header">
+            <text class="title">推荐歌曲</text>
+            <view>
+                <text>为你精心推荐</text>
+                <text class="more">更多 > </text>
+            </view>
+        </view>
+        <!-- 推荐内容区域 -->
+        <scroll-view class="recommendScroll" enable-flex="true" scroll-x="true">
+            <view class="scrollItem">
+                <image src="/static/image/login_touxiang.jpg"></image>
+                <text>周杰伦新专辑 劲爆来袭，最伟大的作品，全球首发</text>
+            </view>
+            <view class="scrollItem">
+                <image src="/static/image/login_touxiang.jpg"></image>
+                <text>周杰伦新专辑 劲爆来袭，最伟大的作品，全球首发</text>
+            </view>
+            <view class="scrollItem">
+                <image src="/static/image/login_touxiang.jpg"></image>
+                <text>周杰伦新专辑 劲爆来袭，最伟大的作品，全球首发</text>
+            </view>
+            <view class="scrollItem">
+                <image src="/static/image/login_touxiang.jpg"></image>
+                <text>周杰伦新专辑 劲爆来袭，最伟大的作品，全球首发</text>
+            </view>
+            <view class="scrollItem">
+                <image src="/static/image/login_touxiang.jpg"></image>
+                <text>周杰伦新专辑 劲爆来袭，最伟大的作品，全球首发</text>
+            </view>
+            <view class="scrollItem">
+                <image src="/static/image/login_touxiang.jpg"></image>
+                <text>周杰伦新专辑 劲爆来袭，最伟大的作品，全球首发</text>
+            </view>
+            <view class="scrollItem">
+                <image src="/static/image/login_touxiang.jpg"></image>
+                <text>周杰伦新专辑 劲爆来袭，最伟大的作品，全球首发</text>
+            </view>
+            <view class="scrollItem">
+                <image src="/static/image/login_touxiang.jpg"></image>
+                <text>周杰伦新专辑 劲爆来袭，最伟大的作品，全球首发</text>
+            </view>
+        </scroll-view>
+    </view>
+
+</view>
